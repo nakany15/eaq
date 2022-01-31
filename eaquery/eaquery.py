@@ -93,6 +93,12 @@ class EAQuery():
         """
             get all json recipe definitions which are created in Tableau CRM.
             returns: list
+                     each value of the list is python dictionary variable defined as following:
+                     {
+                        "id":"recipe id",
+                        "label": "recipe label name",
+                        "recipe": json formatted recipe definition
+                     }
         """
         params = {
             'pageSize': 50, 

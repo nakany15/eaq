@@ -48,3 +48,18 @@ df = eaq.read_saql(data, q)
 q2 = """SELECT COUNT(*) as "A" FROM "Opp_EA" ;"""
 df2 = eaq.read_sql(q2)
 ```
+
+## Recipeのjson定義ファイル取得
+```
+recipes = eaq.get_all_recipe()
+```
+すべてのレシピ情報をリスト型で返します。
+リストの各値はdictionary形式で
+```
+{
+    "id": "レシピid", 
+    "label":"レシピのラベル名": 
+    "recipe":"json定義"
+}
+```
+の形式で格納されています。
