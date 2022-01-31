@@ -1,0 +1,9 @@
+README.md
+setup.py
+eaquery/__init__.py
+eaquery/eaquery.py
+eaquery.egg-info/PKG-INFO
+eaquery.egg-info/SOURCES.txt
+eaquery.egg-info/dependency_links.txt
+eaquery.egg-info/requires.txt
+eaquery.egg-info/top_level.txt
